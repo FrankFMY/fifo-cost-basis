@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fifo-cost-basis"
+version = "0.1.0"
+description = "Decimal FIFO lot matching with realized PnL, open lots, partial coverage, and quality flags."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Artem Prianishnikov" }]
+keywords = ["fifo", "cost-basis", "portfolio", "accounting", "decimal"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/FrankFMY/fifo-cost-basis"
+Repository = "https://github.com/FrankFMY/fifo-cost-basis"
+Issues = "https://github.com/FrankFMY/fifo-cost-basis/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fifo_cost_basis"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
