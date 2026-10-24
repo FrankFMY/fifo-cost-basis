@@ -9,7 +9,7 @@ description = "Decimal FIFO lot matching with realized PnL, open lots, partial c
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
-authors = [{ name = "Artem Prianishnikov" }]
+authors = [{ name = "Artem Prianishnikov", email = "Pryanishnikovartem@gmail.com" }]
 keywords = ["fifo", "cost-basis", "portfolio", "accounting", "decimal"]
 classifiers = [
   "Development Status :: 3 - Alpha",

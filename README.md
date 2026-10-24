@@ -66,10 +66,14 @@ python -m build
 python -m twine check dist/*
 ```
 
-## Author
+## Author and contact
 
-**Artem Prianishnikov** — https://github.com/FrankFMY
+**Artem Prianishnikov** · [FrankFMY](https://github.com/FrankFMY)
+
+[Website](https://frankfmy.com) · [Telegram](https://t.me/FrankFMY) · [LinkedIn](https://www.linkedin.com/in/frankfmy/) · [X](https://x.com/FrankFMY) · [npm profile](https://www.npmjs.com/~frankfmy)
+
+Email: [frankfmy@proton.me](mailto:frankfmy@proton.me) · [Pryanishnikovartem@gmail.com](mailto:Pryanishnikovartem@gmail.com)
 
 ## License
 
-MIT © 2026 Artem Prianishnikov.
+MIT © 2026 Artem Prianishnikov. See [LICENSE](LICENSE).
